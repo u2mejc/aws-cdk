@@ -2483,14 +2483,14 @@ const DUMMY_VPC_PROPS: cxapi.VpcContextResponse = {
       subnets: [
         {
           availabilityZone: 'dummy1a',
-          subnetId: 'p-12345',
-          routeTableId: 'rtb-12345p',
+          subnetId: 'i-12345',
+          routeTableId: 'rtb-12345i',
           cidr: '1.2.3.4/5',
         },
         {
           availabilityZone: 'dummy1b',
-          subnetId: 'p-67890',
-          routeTableId: 'rtb-57890p',
+          subnetId: 'i-67890',
+          routeTableId: 'rtb-57890i',
           cidr: '1.2.3.4/5',
         },
       ],
